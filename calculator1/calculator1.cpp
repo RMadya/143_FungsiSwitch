@@ -60,7 +60,11 @@ int main() {
 			cout << "Hasil pembagian = " << pembagian(a, b) << endl;
 			system("pause");
 			break;
-		
+		case 5:
+			break;
+		default:
+			cout << "Menu tidak tersedia silahkan pilih lagi!!!" << endl;
+			break;
 		}
 
 	} 
